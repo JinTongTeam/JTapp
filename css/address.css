@@ -45,14 +45,7 @@
     justify-content: flex-start;
     align-items: center;
 }
-.logo{
-    display: inline-block;
-    width: .08rem;
-    height: .08rem;
-    border-radius: 50%;
-    background: #37ce9a;
-    margin-right: .15rem;
-}
+
 .list{
     width: auto;
     height: 1.2rem;
@@ -69,4 +62,5 @@
     color: #afb1b2;
     font-size: .22rem;
     margin-left: .23rem;
+    margin-top: .08rem;
 }
