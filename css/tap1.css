@@ -1,0 +1,112 @@
+.top{
+    width: 100%;
+    height: 3.44rem;
+    margin-top: .21rem;
+    padding: .42rem .24rem;
+    box-sizing: border-box;
+}
+.tittle{
+    width: 100%;
+    height: .33rem;
+}
+.dian{
+    width: .1rem;
+    height: 0.05rem;
+    background: #44b5ff;
+    border-radius: 0.025rem;
+    box-shadow: 0 .06rem .1rem .02rem rgba(199,233,255,1);
+    margin: .14rem .11rem 0 .02rem;
+    overflow: hidden;
+    float: left;
+}
+.top .text{
+    font-size: .30rem;
+    color: #4f5b64;
+    line-height: .33rem;
+    float: left;
+}
+.top .text span{
+    color: #41b2fc;
+}
+.content{
+    margin-top: .55rem;
+    width: 100%;
+    height: 1.75rem;
+    padding-left: .12rem;
+    padding-right: .08rem;
+    box-sizing: border-box;
+}
+.content .left{
+    width: 1.75rem;
+    height: 1.75rem;
+    border-radius: 5px;
+    float: left;
+    background: url("../img/shuilongtou.png") no-repeat center;
+    background-size: cover;
+    margin-right: .23rem;
+}
+.content .right{
+    width: 4.84rem;
+    height: 100%;
+    float: right;
+}
+.content .right .word_big{
+    width: 100%;
+    height: .29rem;
+
+
+}
+.content .right .word_big .word_L{
+    font-size: .28rem;
+    color: #646666;
+    float: left;
+    line-height: .29rem;
+}
+.content .right .word_big .word_R{
+    font-size: .28rem;
+    color: #fbb548;
+    float: right;
+    line-height: .29rem;
+}
+.content .right .grade{
+    width: 100%;
+    height: .22rem;
+    margin-top: .2rem;
+}
+.content .right .grade li{
+    width: 1.75rem;
+    height: .22rem;
+    float: left;
+}
+.content .right .grade .dian{
+    width: .05rem;
+    margin-top: .08rem;
+    margin-right: .08rem;
+}
+.content .right .grade .word{
+    font-size: .22rem;
+    color: #afb1b2;
+    line-height: .22rem;
+    float: left;
+}
+.content .right .grade .five{
+    color: #36a8fe;
+    margin-left: .12rem;
+}
+.content .right .comment{
+    width: 100%;
+    height: .34rem;
+    margin-top: .19rem;
+}
+.content .right .comment li{
+    width: 1.22rem;
+    height: .34rem;
+    background: #e7f6ff;
+    border-radius: .17rem;
+    color: #36a8fe;
+    font-size: .18rem;
+    text-align: center;
+    line-height: .34rem;
+    float: left;
+    margin-right: .08rem;
+}
