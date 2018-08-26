@@ -1,0 +1,80 @@
+.banner{
+    width: 100%;
+    height: 3.07rem;
+    background: red;
+    position: relative;
+}
+.banner-box{
+    width: 7.5rem;
+    height: 3.07rem;
+}
+.banner-box>li{
+    width: 7.5rem;
+    height: 3.07rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.banner-box>li>img{
+    width: 100%;
+    height: 100%;
+}
+.banner-flag{
+    width: .59rem;
+    height: .11rem;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: .17rem;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+.banner-flag>li{
+    width: .11rem;
+    height: .11rem;
+    background: #c7eafd;
+    border-radius: 50%;
+}
+.banner-flag>.hot{
+    background: #46b7f8;
+}
+
+main{
+    width: 100%;
+    height: auto;
+    background: #fbffff;
+    padding: 0 .24rem;
+    box-sizing: border-box;
+}
+main>ul{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+main>ul>a>li{
+    width: 2.34rem;
+    height: 1.81rem;
+    margin-top: .47rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+main>ul>a>li>img{
+    width: 1.14rem;
+    height: 1.14rem;
+    border-radius: 50%;
+    box-shadow: 0 .1rem .5rem -.2rem #8e9397;
+}
+main>ul>a>li>h1{
+    width: 100%;
+    text-align: center;
+    font-size: .22rem;
+    font-weight: normal;
+    color: #8e9397;
+}
