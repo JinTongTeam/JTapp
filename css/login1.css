@@ -1,0 +1,132 @@
+@import url(base.css);
+.all-head{
+    width: 100%;
+    height: .88rem;
+    background: #fbfeff;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+}
+.all-head-left{
+    width: .48rem;
+    height: 100%;
+    background: yellow;
+    margin-left: .24rem;
+}
+.all-head-center{
+    font-size: .28rem;
+    color: #53bafe;
+    text-align: center;
+    line-height: .88rem;
+}
+.all-head-right{
+    width: .48rem;
+    height: 100%;
+    background: yellow;
+    margin-right: .24rem;
+}
+.wechat{
+    width: 1.29rem;
+    height: .3rem;
+    text-align: center;
+    line-height: .3rem;
+    font-size: .3rem;
+    margin-top: 3.17rem;
+    margin-left: 3.02rem;
+    color: #646666;
+    font-weight: bold;
+}
+.line{
+    width: 5.18rem;
+    height: .02rem;
+    background: #eef1f2;
+    margin-left: 1.13rem;
+    margin-top: .29rem;
+}
+.line2{
+    width: 5.18rem;
+    height: .02rem;
+    background: #eef1f2;
+    margin-left: 1.13rem;
+    margin-top: .21rem;
+}
+.logo{
+    background: url("../img/wechat.png") no-repeat center;
+    background-size: 1.04rem 1.04rem;
+    width: 1.04rem;
+    height: 1.04rem;
+    background: #53bafe;
+    margin: 0.2rem auto;
+}
+h2{
+    font-size: .25rem;
+    /*text-align: center;*/
+    /*margin: .32rem auto;*/
+    margin-top: .32rem;
+    margin-left: 2.13rem;
+    color: #979899;
+    font-weight: normal;
+}
+.obtain{
+    width: 3.8rem;
+    height: 0.24rem;
+    margin: 0.21rem auto;
+    /*display: flex;*/
+    /*justify-content: space-between;*/
+    /*align-items: center;*/
+}
+.obtain_L{
+    width: .24rem;
+    height: .24rem;
+    float: left;
+    font-size: 0.5rem;
+    line-height: 0.24rem;
+    text-align: left;
+    color: #36d681;
+}
+.obtain_R{
+    width: 3.56rem;
+    height: 0.24rem;
+    float: right;
+    font-size: .24rem;
+    line-height: 0.24rem;
+    text-align: left;
+    color: #afb1b2;
+}
+.line3{
+    width: 5.18rem;
+    height: .02rem;
+    background: #eef1f2;
+    margin-left: 1.13rem;
+    margin-top: .23rem;
+}
+.btn{
+    width: 3.01rem;
+    height: .52rem;
+    margin: .26rem auto;
+    /*background: red;*/
+    display: flex;
+    justify-content: space-between;
+}
+.btn1{
+    width: 1.33rem;
+    height: .52rem;
+    background: #e7f6ff;
+    border-radius: 20px;
+    font-size: 0.18rem;
+    line-height: .52rem;
+    text-align: center;
+    color: #3bacfe;
+}
+.btn2{
+    width: 1.33rem;
+    height: .52rem;
+    border-radius: 20px;
+    color: white;
+    background: #3bacfe;
+    font-size: 0.18rem;
+    line-height: .52rem;
+    text-align: center;
+}
