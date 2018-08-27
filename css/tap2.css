@@ -1,0 +1,219 @@
+
+.bg{
+    position: relative;
+}
+nav{
+    height: .90rem;
+    width: 100%;
+    box-shadow: 0 .08rem .30rem .1rem rgba(238,248,255,1);
+}
+nav ul{
+    width: 100%;
+    height: 100%;
+    padding:0 0.24rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+}
+nav li{
+    width: 2.08rem;
+    height: 100%;
+    float: left;
+}
+nav li span{
+    color: #4ebbfe;
+    font-size: .2rem;
+    line-height: .9rem;
+    float: left;
+    margin-left: .64rem;
+    margin-right: .2rem;
+}
+nav li:first-child span{
+    color: #36d681;
+}
+nav li:nth-child(3) span{
+    margin-left: .44rem ;
+}
+nav li i{
+    color: #4ebbfe;
+    font-size: .1rem;
+    line-height: .9rem;
+    float: left;
+}
+nav li:first-child i{
+    color: #36d681;
+}
+.drop{
+    width: 100%;
+    /*height: 11.33rem;*/
+    height: 0;
+    overflow: hidden;
+    background: rgba(0,0,0,0.3);
+    position: absolute;
+    left: 0;
+    top: 2.04rem;
+    transition: all .2s linear;
+}
+.pull{
+    width: 100%;
+    height: 2.23rem;
+    padding: 0 .89rem;
+    box-sizing: border-box;
+    background: white;
+}
+.pull li{
+    width: 100%;
+    height: .68rem;
+    border-bottom: .01rem solid #f1f4f5;
+    color: #646666;
+    font-size: .24rem;
+    line-height: .68rem;
+    overflow: hidden;
+}
+.pull li:nth-child(3){
+    border-bottom: none;
+}
+.pull .dark{
+    width: 100%;
+    height: 9.07rem;
+}
+.text{
+    font-size: .30rem;
+    color: #4f5b64;
+    line-height: .33rem;
+    float: left;
+}
+.text span{
+    color: #41b2fc;
+}
+main{
+    width: 100%;
+    height: 7.28rem;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+}
+main .big{
+    width: 100%;
+    height: 7.28rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+main ul .content{
+    width: 6.90rem;
+    height: 2.43rem;
+    padding-top: .68rem;
+    padding-left: .12rem;
+    box-sizing: border-box;
+}
+main ul li .left{
+    width: 1.74rem;
+    height: 1.74rem;
+    border-radius: 5px;
+    float: left;
+    background: url("../img/longtou.png") no-repeat center;
+    background-size: cover;
+    margin-right: .23rem;
+}
+.content .right{
+    width: 4.80rem;
+    height: 100%;
+    float: right;
+}
+.content .right .word_big{
+    width: 100%;
+    height: .29rem;
+}
+.content .right .word_big .word_L{
+    font-size: .28rem;
+    color: #646666;
+    float: left;
+    line-height: .29rem;
+}
+.content .right .grade{
+    width: 100%;
+    height: .22rem;
+    margin-top: .2rem;
+}
+.content .right .grade li{
+    width: 1.75rem;
+    height: .22rem;
+    padding: 0;
+    float: left;
+}
+.content .right .grade .dian{
+    width: .05rem;
+    height: .05rem;
+    background: #44b5ff;
+    border-radius: 0.025rem;
+    box-shadow: 0 .06rem .1rem .02rem rgba(199,233,255,1);
+    margin-top: .08rem;
+    margin-right: .08rem;
+    float: left;
+}
+.content .right .grade .word{
+    font-size: .22rem;
+    color: #afb1b2;
+    line-height: .22rem;
+    float: left;
+}
+.content .right .grade .five{
+    color: #36a8fe;
+    margin-left: .12rem;
+}
+.content .right .comment{
+    width: 100%;
+    height: .34rem;
+    margin-top: .19rem;
+}
+.content .right .comment li{
+    width: 1.22rem;
+    height: .34rem;
+    background: #e7f6ff;
+    border-radius: .17rem;
+    color: #36a8fe;
+    font-size: .18rem;
+    text-align: center;
+    line-height: .34rem;
+    float: left;
+    margin-right: .08rem;
+}
+.content .right .bottom{
+    width: 100%;
+    height: .44rem;
+    overflow: hidden;
+    margin-top: .03rem;
+}
+.content .right .bottom .sales{
+    height: .2rem;
+    width: 1.83rem;
+    margin-top: .15rem;
+    float: left;
+
+}
+.content .right .bottom .dian{
+    background: #36d681;
+    width: .05rem;
+    height: .05rem;
+    border-radius: 50%;
+    box-shadow: 0 .06rem .1rem .02rem rgba(212,246,230,1);
+    margin-top: .13rem;
+    margin-right: .08rem;
+    float: left;
+}
+.content .right .bottom .text{
+    font-size: .16rem;
+    color: #afb1b2;
+    float: left;
+}
+.content .right .bottom span{
+    color: #c9cbcc;
+}
+.content .right .bottom .word_R{
+    font-size: .28rem;
+    color: #fbb548;
+    float: right;
+    line-height: .29rem;
+    display: block;
+    margin-top: .15rem;
+}
