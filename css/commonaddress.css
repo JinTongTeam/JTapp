@@ -1,0 +1,162 @@
+@import url("base.css");
+/*头部*/
+html, body {
+    width: 100%;
+    height: 100%;
+}
+*{
+    font-family: 微软雅黑;
+}
+.box{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.all-head{
+    width: 100%;
+    height: .88rem;
+    background: #fbfeff;
+    /*position: fixed;*/
+    /*top: 0;*/
+    /*z-index: 999;*/
+    display: flex;
+    justify-content: space-between;
+}
+.all-head-left{
+    width: .48rem;
+    height: 100%;
+    margin-left: .24rem;
+    text-align: center;
+    line-height: 0.44rem;
+    color: #4BB0FF;
+}
+.all-head-center{
+    width: auto;
+    font-size: .34rem;
+    color: #4ebbfe;
+    text-align: center;
+    line-height: .88rem;
+
+}
+.all-head-right{
+    width: .48rem;
+    height: 100%;
+    margin-right: .24rem;
+}
+
+.outbox{
+    width: 100%;
+    height:auto;
+    padding:0 0.27rem  0  0.22rem;
+    box-sizing: border-box;
+}
+.name{
+    width: 100%;
+    height:1.64rem;
+    background: #F1FAFF;
+    font-family: 微软雅黑;
+    padding-top: 0.5rem;
+    /*padding: 0.5rem 0 0.55rem;*/
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-bottom:0.32rem;
+
+}
+.name p:first-child{
+    font-size: 0.22rem;
+    color: #4BB0FF;
+    display: block;
+    margin-left: 0.38rem;
+}
+.name p:nth-child(2){
+    font-size: 0.22rem;
+    color: #7D8284;
+    margin-left:1.5rem;
+}
+.manageaddr{
+    width: 100%;
+    height:0.87rem;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.4rem;
+
+}
+.manaddr-left{
+    width: 1.5rem;
+    height:0.87rem;
+    line-height: 0.87rem;
+    display: flex;
+    align-items: center;
+    padding-left: 0.02rem;
+}
+.manaddr-left .mark{
+    width: 0.24rem;
+    height: 0.24rem;
+    color: #fff;
+    font-weight: bold;
+    font-size: 0.12rem;
+    border-radius: 0.12rem;
+    background-image: -webkit-linear-gradient(left,#37E070,#32D698);
+    box-shadow: 0 0.05rem 0.15rem 0.03rem #A0EDC4;
+    margin-right: 0.12rem;
+    display: inline-block;
+    text-align:center;
+    line-height: 0.24rem;
+}
+.manaddr-left span{
+    font-size: 0.2rem;
+    color: #ABD6FF;
+}
+.manaddr-right{
+    width: 1.5rem;
+    height: 0.87rem;
+    line-height: 0.87rem;
+    display: flex;
+    align-items: center;
+    padding-left: 0.02rem;
+
+}
+
+.icon-lajitong{
+    font-size: 0.42rem;
+    color: #35A8FF;
+    margin-right: 0.65rem;
+}
+.icon-bianji{
+    font-size: 0.32rem;
+    color: #44CC77;
+}
+.markgray{
+    width: 0.24rem;
+    height: 0.24rem;
+    color: #E8F6FF;
+    background: #E8F6FF;
+    font-weight: bold;
+    font-size: 0.12rem;
+    border-radius: 0.12rem;
+    margin-right: 0.12rem;
+    display: inline-block;
+    text-align:center;
+    line-height: 0.24rem;
+}
+.bconfirm{
+    width: 100%;
+    height: 1.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom:0
+}
+.bconfirm button{
+    width: 4.54rem;
+    height: 0.6rem;
+    border-radius: 0.3rem;
+    background: #3CACFE;
+    color:#fff;
+    font-size: 0.22rem;
+    font-weight: bold;
+    border: 0;
+    box-shadow: 0 0.01rem 0.1rem 0.03rem rgba(51,217,143,0.7);
+    background-image: -webkit-linear-gradient(left,#37E070,#32D698);
+}
