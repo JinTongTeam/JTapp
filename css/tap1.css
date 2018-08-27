@@ -29,7 +29,7 @@
     color: #41b2fc;
 }
 .content{
-    margin-top: .5rem;
+    margin-top: .4rem;
     width: 100%;
     height: 1.74rem;
     padding-left: .12rem;
@@ -44,6 +44,7 @@
     background: url("../img/shuilongtou.png") no-repeat center;
     background-size: cover;
     margin-right: .23rem;
+    box-shadow: 0 0 .15rem .1rem rgba(195,200,203,0.1);
 }
 .content .right{
     width: 4.84rem;
@@ -72,7 +73,7 @@
     margin-top: .2rem;
 }
 .content .right .grade li{
-    width: 1.75rem;
+    width: 1.80rem;
     height: .22rem;
     float: left;
 }
@@ -148,8 +149,7 @@
 .next{
     width: 100%;
     height: 7.66rem;
-    margin-top: .1rem;
-    padding: .39rem .24rem .59rem .24rem ;
+    padding: .39rem .24rem 0 .24rem ;
     box-sizing: border-box;
 }
 .next ul{
@@ -159,7 +159,7 @@
 }
 .next ul .content{
     margin-top: 0;
-    height: 2.41rem;
+    height: 2.39rem;
     border-bottom: .01rem solid #f6f9fa;
     padding-top: .31rem;
     padding-bottom: .34rem;

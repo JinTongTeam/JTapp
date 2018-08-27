@@ -1,5 +1,4 @@
 @import url(base.css);
-<<<<<<< HEAD
 .bg{
     position: absolute;
     top: 0;
@@ -8,9 +7,8 @@
     right:0;
     background: #fafafa;
 }
-=======
 /*头部*/
->>>>>>> 1df3f36b9e7900e6208aa7f5fce101d17354b3e5
+/*>>>>>>> 1df3f36b9e7900e6208aa7f5fce101d17354b3e5*/
 .all-head{
     width: 100%;
     height: .88rem;
