@@ -1,5 +1,4 @@
 @import url(base.css);
-<<<<<<< HEAD
 .bg{
     position: absolute;
     top: 0;
@@ -8,9 +7,8 @@
     right:0;
     background: #fafafa;
 }
-=======
+
 /*头部*/
->>>>>>> 1df3f36b9e7900e6208aa7f5fce101d17354b3e5
 .all-head{
     width: 100%;
     height: .88rem;
@@ -47,7 +45,6 @@
     margin-right: .24rem;
 }
 
-
 /*搜索*/
 .all-search{
     width: 100%;
@@ -57,7 +54,6 @@
     display: flex;
     justify-content: space-between;
     position: relative;
-    padding-top: .88rem;
     box-sizing: border-box;
 }
 .all-search-left{
@@ -88,18 +84,54 @@
 .all-search-right{
     width: .4rem;
     height: .4rem;
-    background: red;
     position: absolute;
     right: .48rem;
     bottom: .1rem;
 }
+.all-search-right>.iconfont{
+    font-size: .4rem;
+    color: #aacbc0;
+    display: block;
+    width: .4rem;
+    height: .4rem;
+}
+/*底部*/
 .all-foot{
     width: 100%;
     height: 1rem;
-    background: royalblue;
+    background: #f9fdff;
     position: fixed;
     bottom: 0;
     z-index: 999;
+}
+.all-foot-box{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.all-foot-box>a{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.all-foot-box>a>li{
+    font-size: .22rem;
+    color: #6ccefd;
+}
+.all-foot-box>a>li>.iconfont{
+    font-size: .46rem;
+    color: #6ccefd;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+.all-foot-box>a>li>span{
+    margin-top: .05rem;
+    display: block;
 }
 
 /*绿色小圆圈*/
