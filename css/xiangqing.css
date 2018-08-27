@@ -72,7 +72,7 @@ section{
     color: #afb1b2;
     margin-top: 0.12rem;
 }
-span{
+.jieshao>span{
     font-size: 0.23rem;
     color: #afb1b2;
 }
@@ -81,6 +81,18 @@ span{
     color: #fbb548;
     float: left;
     margin-top: 0.10rem;
+}
+.yuanjia{
+    width: 1.5rem;
+    height: 0.19rem;
+    /*background: #ffca3b;*/
+    float: left;
+    margin-top: 0.20rem;
+    margin-left: 0.22rem;
+    font-size: 0.19rem;
+    color: #c8c9ca;
+    text-decoration: line-through;
+    line-height: 0.19rem;
 }
 .shuiguan{
     width: .78rem;
@@ -411,6 +423,10 @@ footer{
     display: flex;
     justify-content: space-between;
 }
+.foto{
+    margin-top: 0.91rem;
+    margin-left: 0.24rem;
+}
 .foot>a{
     display: block;
 }
@@ -468,4 +484,9 @@ footer{
 }
 .fast{
     background-image: -webkit-linear-gradient(left,#3bacfe,#3bacfe);
+}
+
+.faucet{
+    background: url("../img/4@3x.png") no-repeat center;
+    background-size: 3rem 3.57rem;
 }
