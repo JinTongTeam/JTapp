@@ -3,6 +3,7 @@ main{
     height: auto;
     padding: 0 .24rem;
     box-sizing: border-box;
+    position: relative;
 }
 .top{
     margin-top: .4rem;
@@ -267,4 +268,130 @@ main ul li .left{
     font-size: .16rem;
     color: #afb1b2;
     float: left;
+}
+.xxkBox{
+    width: 100%;
+    height: 7.4rem;
+    background: white;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+    position: absolute;
+    left: 0;;
+    top: 3rem;
+    z-index: 5;
+}
+.xxkSbox{
+    width: 100%;
+    height: 7.5rem;
+    padding: 0 .24rem;
+    box-sizing: border-box;
+    position: absolute;
+    left: 0;
+    top: 1.1rem;
+    z-index: 5;
+    background: #fafafa;
+}
+.pinglun{
+    width: 100%;
+    height: 0.7rem;
+    /*background: red;*/
+    margin: 0.17rem auto;
+    /*padding: 0 0.24rem;*/
+    /*box-sizing: border-box;*/
+    display: flex;
+    justify-content: space-between;
+}
+.review{
+    width: 1.32rem;
+    height: 0.63rem;
+    /*background: orange;*/
+    font-size: 0.13rem;
+    color:#88cdfe;
+    border-bottom: .07rem solid #fafafa;
+}
+.review:nth-child(1){
+    border-bottom-color:  #3bacfe;
+}
+.review:nth-child(1){
+    color:#3bacfe;
+}
+.review1{
+    text-align: center;
+}
+.review2{
+    text-align: center;
+}
+.concent2{
+    width: 100%;
+    height: 100%;
+    /*background: #fbfeff;*/
+    /*position: relative;*/
+}
+.content1{
+    width: 100%;
+    height: 4.81rem;
+    /*background:yellow;*/
+}
+.user{
+    width: 7.01rem;
+    height: 2.41rem;
+    border-bottom: 0.01rem solid #f0f5f7;
+    overflow: hidden;
+}
+.touxiang{
+    width: 0.85rem;
+    height: 0.85rem;
+    /*background: red;*/
+    float: left;
+    border-radius: 50%;
+    margin-top: 0.45rem;
+    background: url("../img/c6cc6.png") no-repeat center;
+    background-size: 0.85rem 0.85rem;
+}
+.name{
+    width: 5.95rem;
+    height: 0.19rem;
+    /*background: red;*/
+    margin-left: 1.06rem;
+    margin-top: 0.785rem;
+}
+.name-left{
+    font-size: 0.19rem;
+    color: #cfcfcf;
+    line-height: 0.19rem;
+    float: left;
+    margin-right: 0.44rem;
+}
+.name>i{
+    width: 0.2rem;
+    height: 0.19rem;
+    display: block;
+}
+.icon-wujiaoxing{
+    font-size: 0.19rem;
+    color: #36a8fe;
+    float: left;
+    line-height: 0.19rem;
+    margin-right: 0.15rem;
+}
+.icon-wujiaoxing-c{
+    color: #e6e6e6;
+}
+.time{
+    font-size: 0.16rem;
+    color: #9ed5ff;
+    float: right;
+    line-height: 0.19rem;
+}
+.good{
+    font-size: 0.27rem;
+    color: #646666;
+    margin-left: 1.06rem;
+    margin-top:0.23rem;
+}
+.add {
+    font-size: 0.21rem;
+    color: #afb1b2;
+    margin-left: 1.06rem;
+    margin-top: 0.23rem;
 }
