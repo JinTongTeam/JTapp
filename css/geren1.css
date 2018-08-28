@@ -1,0 +1,158 @@
+.bg{
+    position:relative ;
+}
+main{
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+}
+.head{
+    width: 6.44rem;
+    height: 1.85rem;
+    border-radius: .05rem;
+    background: white;
+    position: absolute;
+    top: 1.21rem;
+    left: .52rem;
+    box-shadow: 0 0 .15rem .05rem rgba(0,0,0,0.1);
+    z-index: 10;
+}
+.head .touxiang{
+    width: 1.17rem;
+    height: 1.19rem;
+    border-radius: 50%;
+    margin: .33rem .28rem;
+    background: url("../img/touxiang.png") no-repeat center;
+    background-size: cover;
+    float: left;
+}
+.head .name{
+    width: 4.48rem;
+    height: .72rem;
+    margin-top: .63rem;
+    float: left;
+}
+.head .name .top{
+    width: 100%;
+    height: .28rem;
+}
+.head .name h3{
+    height: .28rem;
+    font-size: .28rem;
+    line-height: .28rem;
+    width: 1.69rem;
+    float: left;
+    color: #000;
+}
+.head .name h2{
+    height: .19rem;
+    font-size: .19rem;
+    line-height: .19rem;
+    color: #3bacfe;
+    margin-top: .09rem;
+    float: right;
+    font-weight: normal;
+}
+.head .name .bottom{
+    width: 1.34rem;
+    height: .24rem;
+    margin-top: .2rem;
+}
+.head .name .bottom .gold{
+    width: .24rem;
+    height: .24rem;
+    float: left;
+    background: url("../img/gold.png") no-repeat center;
+    background-size: cover;
+}
+.head .name .bottom h4{
+    width: 1rem;
+    height: .24rem;
+    font-size: .24rem;
+    line-height: .24rem;
+    color: #999;
+    float: right;
+}
+.diandian{
+    width: 100%;
+    height: 2.26rem;
+    background: url("../img/diandian.png") no-repeat center;
+    background-size: cover;
+    margin-top: 1.73rem;
+    z-index: 1;
+}
+.ticket{
+    width: 100%;
+    height: .83rem;
+    margin-top: -.2rem;
+    padding: 0 .5rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+}
+.ticket li{
+    width: 1rem;
+    height: 100%;
+}
+.ticket li h2{
+    width: 100%;
+    height: .35rem;
+    font-size: .34rem;
+    line-height: .35rem;
+    text-align: center;
+    color:#63ccfe;
+}
+.ticket li .word{
+    width: 100%;
+    height: .28rem;
+    font-size: .28rem;
+    line-height: .28rem;
+    margin-top: .20rem;
+    text-align: center;
+    color: #8e9397;
+}
+.ticket li:nth-child(2) h2{
+    color: #2fd5b4;
+}
+.ticket li:nth-child(3) h2{
+    color: #ffd136;
+}
+.list{
+    width: 100%;
+    height: 6.55rem;
+    margin-top: .23rem;
+}
+.list li{
+    width: 100%;
+    height: .91rem;
+    border-bottom: 0.02rem solid #f6f9fa;
+    overflow: hidden;
+}
+.list li:last-child{
+    border-bottom: none;
+}
+.list li .dian{
+    width: .1rem;
+    height: .05rem;
+    border-radius: .25rem;
+    background: #44b5ff;
+    margin: .4rem .20rem 0 .2rem;
+    box-shadow: 0 .04rem .1rem .02rem rgba(195,232,255,1);
+    float: left;
+}
+.list li .text{
+    width: 1.2rem;
+    line-height: .91rem;
+    height: 100%;
+    font-size: .28rem;
+    color: #000;
+    float: left;
+}
+.tel{
+    width: 2.35rem;
+    line-height: .91rem;
+    height: 100%;
+    font-size: .28rem;
+    color: red;
+    float: right;
+    font-weight: bold;
+}

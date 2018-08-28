@@ -1,0 +1,242 @@
+@import url("base.css");
+/*头部*/
+*{
+    font-family: 微软雅黑;
+}
+/*.box{*/
+
+/*}*/
+body,html{
+    width: 100%;
+    height:100%;
+}
+.all-head{
+    width: 100%;
+    height: .88rem;
+    background: #fbfeff;
+    /*position: fixed;*/
+    /*top: 0;*/
+    /*z-index: 999;*/
+    display: flex;
+    justify-content: space-between;
+}
+.all-head-left{
+    width: .48rem;
+    height: 100%;
+    margin-left: .24rem;
+    text-align: center;
+    line-height: 0.44rem;
+    color: #4BB0FF;
+}
+.all-head-center{
+    width: auto;
+    font-size: .34rem;
+    color: #4ebbfe;
+    text-align: center;
+    line-height: .88rem;
+
+}
+.all-head-right{
+    width: .48rem;
+    height: 100%;
+    margin-right: .24rem;
+}
+/*选项（全部、待支付、待服务、待收货、待评价）部分开始*/
+.options{
+    width: 100%;
+    height:0.8rem;
+    border-bottom: 0.02rem solid #A2DEFF;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+.options li{
+    width: 1.22rem;
+    height:100%;
+    font-size: 0.2rem;
+    color: #AAABAC;
+    line-height: 0.8rem;
+    text-align: center;
+}
+.options li.botm{
+    color: #8b8c8e;
+}
+.options li.botm:after{
+    color: #000;
+    position: absolute;
+    bottom: -0.02rem;
+    content:"";
+    width: 1.22rem;
+    height:0.03rem;
+    display: block;
+    background: #36A8FE;
+
+}
+.bottomBox{
+    width: 100%;
+    height: 4.67rem;
+    display: none;
+}
+.detail{
+    width: 100%;
+    height:2.75rem;
+    font-weight: bold;
+}
+.picture{
+    width:100%;
+    height:1.74rem;
+    float: left;
+    font-family: 微软雅黑;
+    margin: 0.5rem 0;
+}
+.picture img {
+    width: 1.74rem;
+    height: 1.74rem;
+    border-radius: 5px;
+    background: #37ce9a;
+    margin-right: 0.24rem;
+    float: left;
+}
+.detail{
+    float: left;
+    width: 4rem;
+    height: 1.74rem;
+    line-height: 0.42rem;
+}
+.picture h2{
+    font-size: .28rem;
+    color: #8B8C8E;
+    margin-top: 0.1rem;
+    font-weight: 600;
+}
+.picture .detail div{
+    font-size: 0.18rem;
+    color: #38A7FF;
+}
+.picture .detail div:before{
+    content: "";
+    width: 0.05rem;
+    height: 0.05rem;
+    display: inline-block;
+    background: #38A7FF;
+    border-radius: 0.025rem;
+    margin-right: 0.12rem;
+    margin-bottom: 0.09rem;
+    box-shadow: 0 0.01rem 0.1rem 0.01rem #DEF2FD;
+}
+.picture .detail .ws{
+    color: #C8C9CB;
+    font-size:0.2rem;
+}
+.picture .detail .wc{
+    color: #898A8C;
+    font-size:0.2rem;
+}
+.resrmon{
+    color: #C8CAC9;
+    font-size: 0.2rem;
+    width: 100%;
+    text-align: right;
+    padding: 0.2rem 0.24rem;
+    box-sizing: border-box;
+}
+.price{
+    width: 100%;
+    height: 0.3rem;
+    color:#F9B54A ;
+    font-size: 0.24rem;
+    margin-top: 2.74rem;
+    position: relative;
+    line-height: 0.3rem;
+    overflow: hidden;
+    text-align: right;
+    padding-right: 0.24rem;
+    box-sizing: border-box;
+}
+.price span{
+    width: 0.05rem;
+    height: 0.05rem;
+    display: inline-block;
+    border-radius: 0.025rem;
+    margin-bottom: 0.06rem;
+    margin-right: 0.12rem;
+    background: #37D781;
+    box-shadow: 0 0.01rem 0.1rem 0.01rem #DEF2FD;
+}
+.btns{
+    width:100%;
+    height: 1.62rem;
+}
+.add-btn{
+    width:100%;
+    text-align: center;
+}
+.add-btn button{
+    width:1.96rem;
+    height:0.6rem;
+    border-radius:0.4rem;
+    color:#fff;
+    font-size: 0.22rem;
+    font-weight: bold;
+    border: 0;
+    box-shadow: 0 0.01rem 0.1rem 0.03rem rgba(51,217,143,0.7);
+    background-image: -webkit-linear-gradient(left,#37E070,#32D698);
+    float: right;
+    margin-top: 0.51rem;
+    margin-right: 0.25rem;
+}
+.cancel button{
+    width:1.96rem;
+    height:0.6rem;
+    border-radius:0.4rem;
+    font-size: 0.22rem;
+    font-weight: bold;
+    border: 0;
+    float: right;
+    margin-top: 0.51rem;
+    background: #E8F6FF;
+    color: #3CADFB;
+    margin-right: 0.3rem;
+
+}
+/*底部*/
+.all-foot{
+    width: 100%;
+    height: 1rem;
+    background: #f9fdff;
+    position: fixed;
+    bottom: 0;
+    z-index: 999;
+}
+.all-foot-box{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.all-foot-box>a{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.all-foot-box>a>li{
+    font-size: .22rem;
+    color: #6ccefd;
+}
+.all-foot-box>a>li>.iconfont{
+    font-size: .46rem;
+    color: #6ccefd;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+.all-foot-box>a>li>span{
+    margin-top: .05rem;
+    display: block;
+}
+
+
+/*选项（全部、待支付、待服务、待收货、待评价）部分结束*/

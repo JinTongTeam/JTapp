@@ -1,0 +1,298 @@
+main{
+    width: 100%;
+    height: auto;
+    padding: 0 .24rem;
+    box-sizing: border-box;
+}
+.top{
+    margin-top: .4rem;
+    width: 100%;
+    height: 1.74rem;
+    padding-left: .12rem;
+    padding-right: .08rem;
+    box-sizing: border-box;
+}
+.top .left{
+    width: 1.74rem;
+    height: 1.74rem;
+    border-radius: 5px;
+    float: left;
+    background: url("../img/shuilongtou.png") no-repeat center;
+    background-size: cover;
+    margin-right: .23rem;
+    box-shadow: 0 0 .15rem .1rem rgba(195,200,203,0.1);
+}
+.top .right{
+    width: 4.84rem;
+    height: 100%;
+    float: right;
+}
+.top .right .word_big{
+    width: 100%;
+    height: .29rem;
+}
+.top .right .word_big .word_L{
+    font-size: .28rem;
+    color: #646666;
+    float: left;
+    line-height: .29rem;
+}
+.top .right .grade{
+    width: 100%;
+    height: .22rem;
+    margin-top: .2rem;
+}
+.top .right .grade li{
+    width: 1.6rem;
+    height: .22rem;
+    float: left;
+}
+.top .right .grade .dian{
+    width: .05rem;
+    height: .05rem;
+    background: #44b5ff;
+    border-radius: 0.025rem;
+    box-shadow: 0 .06rem .1rem .02rem rgba(199,233,255,1);
+    margin-top: .08rem;
+    margin-right: .08rem;
+    float: left;
+}
+.top .right .grade .word{
+    font-size: .22rem;
+    color: #afb1b2;
+    line-height: .22rem;
+    float: left;
+}
+.top .right .grade .five{
+    color: #36a8fe;
+    margin-left: .12rem;
+}
+.top .right .comment{
+    width: 100%;
+    height: .34rem;
+    margin-top: .19rem;
+}
+.top .comment .box{
+    width: .21rem;
+    height: .21rem;
+    border-radius: 50%;
+    background: url("../img/time.png") no-repeat center;
+    background-size: contain;
+    margin-top: .06rem;
+    margin-right: .08rem;
+    float: left;
+}
+.top .comment .word{
+    color: #a4e0bd;
+    font-size: .2rem;
+    line-height: .34rem;
+    float: left;
+}
+.top .right .bottom{
+    width: 100%;
+    height: .44rem;
+    overflow: hidden;
+    margin-top: .03rem;
+}
+.top .right .bottom .btn1{
+    width: 2.23rem;
+    height: .35rem;
+    border-radius: .17rem;
+    background: #e7f6ff;
+    color: #36a8fe;
+    font-size: .18rem;
+    line-height: .35rem;
+    text-align: center;
+    float: left;
+    margin-top: .09rem;
+}
+.top .right .bottom .btn2{
+    width: 1.24rem;
+    height: .44rem;
+    background: #3bacfe;
+    border-radius: .22rem;
+    color: #fff;
+    font-size: .18rem;
+    text-align: center;
+    line-height: .44rem;
+    float: right;
+}
+nav{
+    height: 1.41rem;
+    width: 100%;
+    /*box-shadow: 0 .08rem .30rem .1rem rgba(238,248,255,1);*/
+    padding: 0 .88rem;
+    box-sizing: border-box;
+}
+nav ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+nav ul li{
+    width: 1.34rem;
+    height: .53rem;
+    background: #e7f6ff;
+    border-radius: .26rem;
+    margin-top: .47rem;
+    font-size: .20rem;
+    color: #3bacfe;
+    line-height: .53rem;
+    text-align: center;
+}
+nav ul li:first-child{
+    background: #3bacfe;
+    color: white;
+}
+ .middle{
+    width: 100%;
+    height: .68rem;
+    background: #3bacfe;
+     padding: 0 0.34rem;
+     box-sizing: border-box;
+     display: flex;
+     justify-content: space-between;
+}
+.middle li{
+    width: 1.4rem;
+    height: 100%;
+    color: #b1deff;
+    font-size: .2rem;
+    text-align: center;
+    line-height: .64rem;
+    border-bottom: .04rem solid #3bacfe;
+    box-sizing: border-box;
+}
+.xxkbox{
+    background: #fafafa;
+    position: absolute;
+    left: 0;
+    top:5.73rem;
+    z-index: 5;
+}
+.last{
+    width: 100%;
+    height: 7.2rem;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+}
+.middle li:nth-child(1){
+    color: white;
+    border-bottom: .04rem solid #fff;
+}
+.last .content{
+    width: 100%;
+    height: 1.98rem;
+    margin-top: .35rem;
+}
+.last li .left{
+    width: 1.98rem;
+    height: 1.98rem;
+    border-radius: 5px;
+    float: left;
+    background: white url("../img/baobao.png") no-repeat center;
+    background-size: 1.23rem 1.39rem;
+    margin-right: .23rem;
+    box-shadow: 0 0 .1rem .05rem rgba(245,247,248,1);
+}
+.content .right{
+    width: 4.80rem;
+    height: 100%;
+    float: right;
+}
+.content .right .word_big{
+    width: 100%;
+    height: .29rem;
+}
+.content .right .word_big .word_L{
+    font-size: .28rem;
+    color: #646666;
+    float: left;
+    line-height: .29rem;
+}
+.content .right .shuoming{
+    width: 100%;
+    height: .44rem;
+    color: #afb1b2;
+    font-size: .18rem;
+    line-height: .18rem;
+    margin-top: .2rem;
+    padding-bottom: .2rem;
+    box-sizing: border-box;
+    border-bottom: .01rem solid #f0f5f7;
+}
+.content .right .and{
+    width: 100%;
+    height: .24rem;
+    margin-top: .2rem;
+}
+.content .right .grade{
+    width: 3.0rem;
+    height: .22rem;
+    float: left;
+    display: flex;
+    justify-content: space-between;
+}
+.content .right .grade li{
+    width: 1.35rem;
+    height: .22rem;
+    padding: 0;
+    float: left;
+}
+.content .right .grade .dian{
+    width: .05rem;
+    height: .05rem;
+    background: #44b5ff;
+    border-radius: 0.025rem;
+    box-shadow: 0 .06rem .1rem .02rem rgba(199,233,255,1);
+    margin-top: .08rem;
+    margin-right: .08rem;
+    float: left;
+}
+.content .right .grade .word{
+    font-size: .22rem;
+    color: #afb1b2;
+    line-height: .22rem;
+    float: left;
+}
+.content .right .grade .five{
+    color: #36a8fe;
+    margin-left: .12rem;
+}
+.content .right .price{
+    width: 1.36rem;
+    height: 100%;
+    font-size: .24rem;
+    line-height: .24rem;
+    color: #fbb548;
+    float: right;
+    text-align: right;
+}
+.content .right .bottom{
+    width: 100%;
+    height: .44rem;
+    overflow: hidden;
+    margin-top: .03rem;
+}
+.content .right .bottom .sales{
+    height: .2rem;
+    width: 1.83rem;
+    margin-top: .15rem;
+    float: left;
+
+}
+.content .right .bottom .box{
+    width: .3rem;
+    height: .3rem;
+    float: left;
+    margin-right: .1rem;
+    background: url("../img/baodashi.png") no-repeat center;
+    background-size: cover;
+}
+.content .right .bottom .text {
+    font-size: .16rem;
+    color: #afb1b2;
+    float: left;
+}
