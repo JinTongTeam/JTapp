@@ -1,0 +1,239 @@
+.begin{
+    height: .90rem;
+    width: 100%;
+    box-shadow: 0 .08rem .30rem .1rem rgba(238,248,255,1);
+    /*margin-top: .88rem;*/
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+}
+.begin ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.begin ul li{
+    width: 1.34rem;
+    height: .53rem;
+    /*background: #e7f6ff;*/
+    border-radius: .26rem;
+    margin-top: .21rem;
+    font-size: .20rem;
+    color: #3bacfe;
+    line-height: .53rem;
+    text-align: center;
+}
+.begin li:nth-child(1){
+    background: #3bacfe;
+    color: white;
+}
+.bg{
+    position: relative;
+}
+/*选项卡大盒子*/
+.xxkBox{
+    background: white;
+    position: absolute;
+    left: 0;
+    top: 1.85rem;
+    z-index: 5;
+}
+nav{
+    height: .90rem;
+    width: 100%;
+    box-shadow: 0 .08rem .30rem .1rem rgba(238,248,255,1);
+}
+nav ul{
+    width: 100%;
+    height: 100%;
+    padding:0 0.24rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+}
+nav li{
+    width: 2.08rem;
+    height: 100%;
+    float: left;
+    color: #4ebbfe;
+}
+nav li span{
+    font-size: .2rem;
+    line-height: .9rem;
+    float: left;
+    margin-left: .64rem;
+    margin-right: .2rem;
+}
+
+nav li:nth-child(3) span{
+    margin-left: .44rem ;
+}
+nav li i{
+    font-size: .1rem;
+    line-height: .9rem;
+    float: left;
+}
+nav li:first-child{
+    color: #36d681;
+}
+.drop{
+    width: 100%;
+    height: 11.33rem;
+    display: none;
+    overflow: hidden;
+    background: rgba(0,0,0,0.3);
+    position: absolute;
+    left: 0;
+    top: .9rem;
+    transition: all .2s linear;
+    z-index: 5;
+}
+.pull{
+    width: 100%;
+    height: 2.23rem;
+    padding: 0 .89rem;
+    box-sizing: border-box;
+    background: white;
+}
+.pull li{
+    width: 100%;
+    height: .68rem;
+    border-bottom: .01rem solid #f1f4f5;
+    color: #646666;
+    font-size: .24rem;
+    line-height: .68rem;
+    overflow: hidden;
+}
+.pull li:nth-child(3){
+    border-bottom: none;
+}
+.pull .dark{
+    width: 100%;
+    height: 9.07rem;
+
+}
+main{
+    width: 100%;
+    padding: 0 .24rem;
+    box-sizing: border-box;
+}
+main ul{
+    width: 100%;
+    height: 7.2rem;
+}
+
+main ul .content{
+    width: 100%;
+    height: 1.98rem;
+    margin-top: .35rem;
+}
+main ul li .left{
+    width: 1.98rem;
+    height: 1.98rem;
+    border-radius: 5px;
+    float: left;
+    background: white url("../img/baobao.png") no-repeat center;
+    background-size: 1.23rem 1.39rem;
+    margin-right: .23rem;
+    box-shadow: 0 0 .1rem .05rem rgba(245,247,248,1);
+}
+.content .right{
+    width: 4.80rem;
+    height: 100%;
+    float: right;
+}
+.content .right .word_big{
+    width: 100%;
+    height: .29rem;
+}
+.content .right .word_big .word_L{
+    font-size: .28rem;
+    color: #646666;
+    float: left;
+    line-height: .29rem;
+}
+.content .right .shuoming{
+    width: 100%;
+    height: .44rem;
+    color: #afb1b2;
+    font-size: .18rem;
+    line-height: .18rem;
+    margin-top: .2rem;
+    padding-bottom: .2rem;
+    box-sizing: border-box;
+    border-bottom: .01rem solid #f0f5f7;
+}
+.content .right .and{
+    width: 100%;
+    height: .24rem;
+    margin-top: .2rem;
+}
+.content .right .grade{
+    width: 3.0rem;
+    height: .22rem;
+    float: left;
+    display: flex;
+    justify-content: space-between;
+}
+.content .right .grade li{
+    width: 1.35rem;
+    height: .22rem;
+    padding: 0;
+    float: left;
+}
+.content .right .grade .dian{
+    width: .05rem;
+    height: .05rem;
+    background: #44b5ff;
+    border-radius: 0.025rem;
+    box-shadow: 0 .06rem .1rem .02rem rgba(199,233,255,1);
+    margin-top: .08rem;
+    margin-right: .08rem;
+    float: left;
+}
+.content .right .grade .word{
+    font-size: .22rem;
+    color: #afb1b2;
+    line-height: .22rem;
+    float: left;
+}
+.content .right .grade .five{
+    color: #36a8fe;
+    margin-left: .12rem;
+}
+.content .right .price{
+    width: 1.36rem;
+    height: 100%;
+    font-size: .24rem;
+    line-height: .24rem;
+    color: #fbb548;
+    float: right;
+    text-align: right;
+}
+.content .right .bottom{
+    width: 100%;
+    height: .44rem;
+    overflow: hidden;
+    margin-top: .03rem;
+}
+.content .right .bottom .sales{
+    height: .2rem;
+    width: 1.83rem;
+    margin-top: .15rem;
+    float: left;
+
+}
+.content .right .bottom .box{
+    width: .3rem;
+    height: .3rem;
+    float: left;
+    margin-right: .1rem;
+    background: url("../img/baodashi.png") no-repeat center;
+    background-size: cover;
+}
+.content .right .bottom .text {
+    font-size: .16rem;
+    color: #afb1b2;
+    float: left;
+}

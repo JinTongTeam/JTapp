@@ -5,6 +5,7 @@
 nav{
     height: .90rem;
     width: 100%;
+    margin-top: .88rem;
     box-shadow: 0 .08rem .30rem .1rem rgba(238,248,255,1);
 }
 nav ul{
@@ -19,40 +20,39 @@ nav li{
     width: 2.08rem;
     height: 100%;
     float: left;
+    color: #4ebbfe;
 }
 nav li span{
-    color: #4ebbfe;
+
     font-size: .2rem;
     line-height: .9rem;
     float: left;
     margin-left: .64rem;
     margin-right: .2rem;
 }
-nav li:first-child span{
-    color: #36d681;
-}
+
 nav li:nth-child(3) span{
     margin-left: .44rem ;
 }
 nav li i{
-    color: #4ebbfe;
     font-size: .1rem;
     line-height: .9rem;
     float: left;
 }
-nav li:first-child i{
+nav li:first-child{
     color: #36d681;
 }
 .drop{
     width: 100%;
-    /*height: 11.33rem;*/
-    height: 0;
+    height: 11.33rem;
+    display: none;
     overflow: hidden;
     background: rgba(0,0,0,0.3);
     position: absolute;
     left: 0;
     top: 2.04rem;
     transition: all .2s linear;
+    z-index: 5;
 }
 .pull{
     width: 100%;
@@ -114,6 +114,7 @@ main ul li .left{
     background: url("../img/longtou.png") no-repeat center;
     background-size: cover;
     margin-right: .23rem;
+    box-shadow: 0 0 .15rem .1rem rgba(195,200,203,0.1);
 }
 .content .right{
     width: 4.80rem;

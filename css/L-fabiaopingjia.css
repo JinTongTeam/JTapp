@@ -1,4 +1,8 @@
 @import url(base.css);
+body{
+    background: #fbffff;
+    z-index: -999;
+}
 main{
     width: 100%;
     height: auto;
@@ -8,8 +12,8 @@ main{
 .main-title{
     width: 100%;
     height: .76rem;
-    background: #fbffff;
     display: flex;
+    background: #fbffff;
     justify-content: space-between;
 }
 .title-son{
@@ -63,4 +67,63 @@ textarea{
     border-radius: .05rem;
     border: 0;
     box-shadow: 0 0 .2rem .01rem rgba(0,0,0,.1);
+}
+.input-img-box{
+    width: 1.2rem;
+    height: 1.2rem;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 .2rem .01rem rgba(0,0,0,.1);
+    margin-top: .25rem;
+    border-radius: .05rem;
+}
+.input-img{
+    width: 1.2rem;
+    height: 1.2rem;
+    outline: none;
+    background: yellow;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+}
+.input-img-box>.icon-zhaoxiangji{
+    color: #5bccfa;
+    font-size: .5rem;
+}
+h2{
+    font-size: .2rem;
+    color: #afafb1;
+    margin-top: .17rem;
+    margin-left: .15rem;
+    font-weight: normal;
+}
+.niming{
+    width: 100%;
+    height: .26rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: .4rem;
+    font-size: .26rem;
+    line-height: .26rem;
+}
+.niming>input{
+    margin-right: .1rem;
+}
+button{
+    width: 3.8rem;
+    height: .6rem;
+    background-image: -webkit-linear-gradient(left,#3adf6a,#33d699);
+    border-radius: .3rem;
+    border: 0;
+    outline: none;
+    font-size: .24rem;
+    color: #fff;
+    line-height: .6rem;
+    display: block;
+    margin: 1.8rem auto 0;
 }

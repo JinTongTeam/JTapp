@@ -1,0 +1,22 @@
+@import "base.css";
+.bottomBox .picture .detail .wc{
+    width: 6rem;
+}
+ .detail .wc span:before{
+    content: "";
+    width: 0.06rem;
+    height: 0.06rem;
+    display: inline-block;
+    border-radius: 0.03rem;
+    margin-bottom: 0.03rem;
+    margin-right: 0.12rem;
+    background: #37D781;
+    box-shadow: 0 0.01rem 0.1rem 0.01rem #DEF2FD;
+}
+.detail span{
+    font-size: 0.18rem;
+    color: #8a8b8d;
+    margin-left: 3.9rem;
+    margin-top: 0.2rem;
+    /*text-align: right;*/
+}
