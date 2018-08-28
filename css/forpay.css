@@ -1,0 +1,22 @@
+@import url("base.css");
+.changewidth span{
+    font-size: 0.24rem;
+    color: #41c83e;
+    margin: 0  0 0  2.2rem ;
+}
+.picture .detail .changewidth{
+    width: 5.8rem;
+}
+.bottomBox .picture .detail{
+    width: 5.3rem;
+}
+.detail p{
+    color: #c8c9cb;
+    display: inline-block;
+}
+.thBox .wc{
+    margin-top: 0.45rem;
+}
+.btns .longbtn button{
+    width:2.7rem ;
+}
