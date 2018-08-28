@@ -1,0 +1,259 @@
+@import "base.css";
+html body{
+    width: 100%;
+    height: 100%;
+    background: #fbfeff;
+}
+.all-head{
+    width: 100%;
+    height: .88rem;
+    /*background: red;*/
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+}
+.all-head-left{
+    width: .48rem;
+    height: 100%;
+    /*background: yellow;*/
+    margin-left: .24rem;
+}
+.all-head-left>a{
+    display: block;
+}
+.icon-fanhui{
+    font-size: 0.41rem;
+    color: #36a8fe;
+    text-align: center;
+    margin-top: 0.30rem;
+}
+
+.all-head-center{
+    font-size: .34rem;
+    color: #53bafe;
+    text-align: center;
+    line-height: .88rem;
+}
+.all-head-right{
+    width: .48rem;
+    height: 100%;
+    /*background: yellow;*/
+    margin-right: .24rem;
+}
+
+.wallet{
+    width: 1.3rem;
+    height: 1.3rem;
+    display: block;
+    margin: 1.01rem auto 0;
+
+}
+
+
+.option_Box{
+    width: 5.7rem;
+    height: 0.86rem;
+    background: #fbfeff;
+    margin: 0.88rem auto 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.option1{
+    width: 0.77rem;
+    height: 0.24rem;
+    background: #fbfeff;
+    font-size: 0.24rem;
+    line-height: 0.24rem;
+    color: #36d681;
+}
+.option1 span{
+    color: #9aeac1;
+}
+.option1:nth-child(2){
+    width: 0.76rem;
+    height: 0.24rem;
+    background: #fbfeff;
+    font-size: 0.24rem;
+    line-height: 0.24rem;
+    color: #3bacfe;
+}
+.option1:nth-child(3){
+    width: 1.29rem;
+    height: 0.24rem;
+    background: #fbfeff;
+    font-size: 0.24rem;
+    line-height: 0.24rem;
+    color: #3bacfe;
+}
+.line{
+    width: 100%;
+    height: 0.12rem;
+    background: #eff9ff;
+}
+
+
+.classification{
+    width: 7.5rem;
+    height: 2.39rem;
+    position: relative;
+    /*background: green;*/
+}
+.classification h1{
+    font-size: 0.28rem;
+    padding-left: 2.35rem;
+    padding-top: 0rem;
+    color: #646666;
+    letter-spacing: 0.02rem;
+}
+.classification h1 span{
+    font-size: 0.20rem;
+    color: #979899;
+    letter-spacing: 0.01rem;
+    padding-left: 0.12rem;
+}
+.Sales_Volume_Box_L{
+    width: 1.58rem;
+    height: 0.2rem;
+    /*background: yellow;*/
+    float: left;
+    margin-left: 2.34rem;
+    position: relative;
+    margin-top: 0.19rem;
+}
+.Sales_Volume_Box_R{
+    width: 1.58rem;
+    height: 0.2rem;
+    /*background: yellow;*/
+    float: left;
+    position: relative;
+    margin-top: 0.19rem;
+}
+.spot{
+    width: 0.05rem;
+    height: 0.05rem;
+    background: #44b5ff;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+    border-radius: 50%;
+}
+.Sales_Volume_Box_L h4,.Sales_Volume_Box_R h4{
+    font-size: 0.2rem;
+    color: #afb1b2;
+    padding-left: 0.10rem;
+    line-height: 0.2rem;
+}
+.Sales_Volume_Box_L h4 span,.Sales_Volume_Box_R h4 span{
+    font-size: 0.18rem;
+    color: #36a8fe;
+    padding-left: 0.052rem;
+}
+
+.evaluate_Box{
+    width: 2.51rem;
+    height: 0.35rem;
+    /*background: rebeccapurple;*/
+    margin-left: 2.32rem;
+    padding-top: 0.19rem;
+    display: flex;
+    justify-content: space-between;
+
+}
+.evaluate{
+    width: 1.21rem;
+    height: 0.35rem;
+    background: #e7f6ff;
+    border-radius: 0.175rem;
+    font-size: 0.19rem;
+    text-align: center;
+    line-height: 0.35rem;
+    color: #36a8fe;
+}
+.SalesVolume{
+    width: 0.82rem;
+    height: 0.17rem;
+    /*background: yellow;*/
+    margin-left: 2.37rem;
+    margin-top: 0.28rem;
+    position: relative;
+}
+.spot2{
+    width: 0.05rem;
+    height: 0.05rem;
+    background: #36d681;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+    border-radius: 50%;
+}
+.SalesVolume h5{
+    width: 1rem;
+    font-size: 0.17rem;
+    color: #afb1b2;
+    line-height: 0.17rem;
+    padding-left: 0.14rem;
+}
+.SalesVolume h5 span{
+    font-size: 0.16rem;
+    color: #d9dbdc;
+    line-height: 0.15rem;
+}
+.img_Box{
+    width: 1.7rem;
+    height: 1.76rem;
+    background: #ffffff;
+    box-shadow: 0 0 0.2rem 0.05rem rgba(0,0,0,0.1);
+    position: absolute;
+    left: 0.35rem;
+    top: 0;
+    border-radius: 0.1rem;
+    margin-top: 0.1rem;
+}
+.img_Box img{
+    display: block;
+    margin: 0.28rem auto 0;
+}
+
+
+.Box{
+    width: 7.5rem;
+    height: 7.17rem;
+    position: relative;
+}
+.classification_Box{
+    width: 7.5rem;
+    height: 7.17rem;
+    background: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.classification_Box:nth-child(2){
+    width: 7.5rem;
+    height: 7.17rem;
+    background: red;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+.classification_Box:nth-child(3){
+    width: 7.5rem;
+    height: 7.17rem;
+    background: green;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+.hot{
+    z-index: 100;
+}
