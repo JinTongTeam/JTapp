@@ -5,25 +5,25 @@
     align-items: flex-start;
 }
 .banner{
-    width: 100%;
-    height: 3.07rem;
-    background: red;
+    width: 7.5rem;
+    height: 3rem;
     position: relative;
+    overflow: hidden;
 }
 .banner-box{
     width: 7.5rem;
-    height: 3.07rem;
+    height: 3rem;
 }
 .banner-box>li{
     width: 7.5rem;
-    height: 3.07rem;
+    height: 3rem;
     position: absolute;
     top: 0;
-    left: 0;
+    left: 100%;
 }
 .banner-box>li>img{
-    width: 100%;
-    height: 100%;
+    width: 7.5rem;
+    height: 3rem;
 }
 .banner-flag{
     width: .59rem;
@@ -102,7 +102,7 @@ main>ul>a>li>h1{
     background: #fbfeff;
     position: fixed;
     top: 0;
-    z-index: 999;
+    z-index: 888;
     display: flex;
     justify-content: space-between;
 }
@@ -189,7 +189,7 @@ main>ul>a>li>h1{
     background: #f9fdff;
     position: fixed;
     bottom: 0;
-    z-index: 999;
+    z-index: 888;
 }
 .all-foot-box{
     width: 100%;
@@ -219,4 +219,66 @@ main>ul>a>li>h1{
 .all-foot-box>a>li>span{
     margin-top: .05rem;
     display: block;
+}
+.all-zz{
+    width: 100%;
+    height: 100%;
+    background: rgba(255,255,255,.95);
+    z-index: -998;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+}
+.all-zz>ul{
+    width: 4.7rem;
+    height: 2.33rem;
+    position: absolute;
+    bottom: 2.58rem;
+    display: flex;
+    justify-content: space-between;
+}
+.all-zz>ul>a>li{
+    width: 1.73rem;
+    height: 100%;
+    display: flex;
+    align-content: space-between;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.all-zz>ul>a>li>div{
+    width: 1.73rem;
+    height: 1.73rem;
+    border-radius: 50%;
+    background-image: -webkit-linear-gradient(top,#ffc23e,#ffe360);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.all-zz>ul>a>li>h1{
+    color: #7f7f7f;
+    font-size: .24rem;
+}
+.all-zz>ul>a>li>.blue{
+    background-image: -webkit-linear-gradient(top,#3ec2ff,#55edde);
+}
+.all-zz>ul>a>li .iconfont{
+    font-size: .8rem;
+    color: #fff;
+}
+.close{
+    width: .54rem;
+    height: .54rem;
+    background: #f3f5f7;
+    border-radius: 50%;
+    position: absolute;
+    bottom: .4rem;
+    font-size: .16rem;
+    color: #76797b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
