@@ -17,6 +17,7 @@
     z-index: 999;
     display: flex;
     justify-content: space-between;
+    box-shadow: 0 .06rem .2rem .06rem rgba(236,248,255,1);
 }
 .all-head-left{
     width: .48rem;
@@ -69,12 +70,17 @@
     width: 5.88rem;
     height: 100%;
     background: #f2faff;
-    border: .01rem solid #e8f6ff;
+    border: .03rem solid #e8f6ff;
     box-sizing: border-box;
     margin-right: .24rem;
     border-radius: .3rem;
     padding-left: .2rem;
     outline: none;
+}
+.all-search-center1{
+    width: 7.1rem;
+    height: .6rem;
+    margin: 0 auto;
 }
 .all-search input::-webkit-input-placeholder{
     color:#c8d9e6;

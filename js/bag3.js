@@ -14,7 +14,7 @@ window.onload=function () {
                 navlis[j].style.color="#88cdfe";
                 navlis[j].style.background="#e7f6ff";
             }
-            xxkBox[i].style.zIndex="10";
+            xxkBox[i].style.zIndex="11";
             navlis[i].style.color="white";
             navlis[i].style.background="#3bacfe"
         }

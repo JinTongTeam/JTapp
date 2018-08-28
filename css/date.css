@@ -1,0 +1,110 @@
+.date_in__big_box{
+    width: 100%;
+    height: 5.78rem;
+    padding: 0.28rem 0.24rem;
+    box-sizing: border-box;
+    margin-top: 0.88rem;
+}
+.date_in_box{
+    width: 7.02rem;
+    height: 5.50rem;
+}
+.date_in_box li{
+    width: 100%;
+    height: 0.9rem;
+    border-bottom: 1px solid#f6f9fa;
+    position: relative;
+}
+.date_in_in_in{
+    display: block;
+    width: 100%;
+    height: 0.9rem;
+}
+.date_in_yuan{
+    width: 0.1rem;
+    height: 0.05rem;
+    background: #44b5ff;
+    box-shadow: 0 0.01rem 0.01rem 0.01rem rgba(68,181,255,0.8);
+    border-radius: 0.025rem;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.date_in_wz1{
+    display: block;
+    font-size: 0.26rem;
+    color: #7d7f7f;
+    line-height: 0.9rem;
+    position: absolute;
+    left: 0.26rem;
+}
+.date_in_icon_box{
+    width: 0.58rem;
+    height: 0.58rem;
+    border-radius: 0.08rem;
+    position: absolute;
+    right: 0.5rem;
+    top:0.12rem;
+    color: #ffffff;
+    font-size: 0.24rem;
+    line-height: 0.58rem;
+    text-align: center;
+    background-image: -webkit-linear-gradient(left,#37e071,#32d797);
+    box-shadow: 0 0.02rem 0.04rem 0.04rem rgba(181,243,205,0.8);
+}
+.date_in_icon_box1{
+    width: 0.5rem;
+    height: 0.58rem;
+    position: absolute;
+    right: 0;
+    top:0.12rem;
+    font-size: 0.20rem;
+    color: #E4EEF3;
+    line-height: 0.72rem;
+    text-align: center;
+}
+
+.date_in_haoma{
+    display: block;
+    font-size: 0.22rem;
+    color: #36a8fe;
+    line-height: 0.9rem;
+    position: absolute;
+    right: 0.5rem;
+    font-weight: bold;
+}
+.date_in_wz2{
+    display: block;
+    font-size: 0.26rem;
+    color: #4b4c4c;
+    line-height: 0.9rem;
+    position: absolute;
+    right: 0.5rem;
+}
+.icon_box_box{
+    width: 0.38rem;
+    height: 0.9rem;
+    position: absolute;
+    right: 0.5rem;
+    color: #34a7fe;
+    font-size: 0.38rem;
+    text-align: center;
+    line-height: 0.9rem;
+}
+.password_bottom_button{
+    display: block;
+    width: 4.54rem;
+    height: 0.6rem;
+    background-image: -webkit-linear-gradient(left,#37e070,#32d69a);
+    border-radius: 0.3rem;
+    position: absolute;
+    top: 7.78rem;
+    left: 1.46rem;
+    font-size: 0.2rem;
+    color: #ffffff;
+    text-align: center;
+    line-height: 0.6rem;
+    box-shadow: 0 0.04rem 0.04rem 0.04rem rgba(181,243,205,0.8);
+}

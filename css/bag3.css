@@ -294,17 +294,13 @@ main ul li .left{
 .pinglun{
     width: 100%;
     height: 0.7rem;
-    /*background: red;*/
     margin: 0.17rem auto;
-    /*padding: 0 0.24rem;*/
-    /*box-sizing: border-box;*/
     display: flex;
     justify-content: space-between;
 }
 .review{
     width: 1.32rem;
     height: 0.63rem;
-    /*background: orange;*/
     font-size: 0.13rem;
     color:#88cdfe;
     border-bottom: .07rem solid #fafafa;

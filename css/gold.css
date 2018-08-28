@@ -1,0 +1,44 @@
+@import url(base.css);
+.nav_head_box{
+    width: 100%;
+    height: 0.9rem;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.nav_head_return{
+    display: block;
+    width: 0.74rem;
+    height: 0.9rem;
+    text-align: center;
+    line-height: 0.9rem;
+    color: #36a8fe;
+    font-size: 0.41rem;
+}
+.nav_head_wz_box{
+    width: 1.14rem;
+    height: 0.9rem;
+    margin-left: 2.40rem;
+    color: #36a8fe;
+    font-size: 0.36rem;
+    text-align: center;
+    line-height: 0.9rem;
+}
+.gold_photo_box{
+    width: 100%;
+    height: 3.08rem;
+    background: #0070c9;
+    background: url('../img/gold1.png') no-repeat center;
+    margin-top: 0.88rem;
+}
+.gold_photo_wz_box{
+    width: 6.64rem;
+    height: 0.84rem;
+    margin-top: 0.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 0.22rem;
+    text-align: center;
+    line-height: 0.84rem;
+    color: #7d7f7f;
+}
