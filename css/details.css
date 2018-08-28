@@ -160,7 +160,7 @@ section{
     width:7.2rem;
     height: 0.85rem;
     border-bottom: 0.01rem solid #f0f5f7;
-    margin-left:0.24rem;
+    /*margin-left:0.24rem;*/
 }
 .youhui>i{
     width: 0.39rem;
@@ -487,6 +487,13 @@ footer{
 }
 
 .faucet{
+    background: url("../img/4@3x.png") no-repeat center;
+    background-size: 3rem 3.57rem;
+}
+.foot3{
+    width: 7.03rem;
+}
+.bag1{
     background: url("../img/4@3x.png") no-repeat center;
     background-size: 3rem 3.57rem;
 }
