@@ -198,6 +198,7 @@ span{
     float: left;
 }
 .icon-arr-right{
+    display: block;
     font-size: 0.24rem;
     color: #36a8fe;
     float: right;
@@ -242,12 +243,14 @@ p{
     float: right;
     line-height: 0.26rem;
 }
-input{
+textarea{
     width: 7.02rem;
     height: 1.48rem;
     outline: none;
     background: #f1faff;
     border: none;
+    padding-left: 0.24rem;
+    padding-top: 0.35rem;
 }
 .qian{
     font-size: 0.23rem;
