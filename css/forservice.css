@@ -2,6 +2,7 @@
 /*头部*/
 *{
     font-family: 微软雅黑;
+    outline: none;
 }
 /*.box{*/
 
@@ -237,6 +238,19 @@ body,html{
     margin-top: .05rem;
     display: block;
 }
-
-
 /*选项（全部、待支付、待服务、待收货、待评价）部分结束*/
+/*超链接跳转*/
+.btns a{
+    width:100%;
+    height: 1.62rem;
+    color:#fff;
+    font-size: 0.22rem;
+    font-weight: bold;
+}
+.add-btn a{
+    color:#fff;
+
+}
+.cancel a{
+    color: #3CADFB;
+}

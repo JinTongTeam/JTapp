@@ -41,6 +41,10 @@
     text-align: center;
     margin-top: 3.6rem;
 }
+.empty img{
+    width:3.24rem;
+    height: 3.24rem;
+}
 .empty-title{
     font-size: 0.26rem;
     color:rgba(0,0,0,0.4);

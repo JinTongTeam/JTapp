@@ -114,9 +114,7 @@ html, body {
     display: flex;
     align-items: center;
     padding-left: 0.02rem;
-
 }
-
 .icon-lajitong{
     font-size: 0.42rem;
     color: #35A8FF;
@@ -126,7 +124,7 @@ html, body {
     font-size: 0.32rem;
     color: #44CC77;
 }
-.markgray{
+.manaddr-left div{
     width: 0.24rem;
     height: 0.24rem;
     color: #E8F6FF;
