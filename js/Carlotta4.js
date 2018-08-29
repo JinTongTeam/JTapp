@@ -4,7 +4,7 @@ window.onload=function () {
     // let option2=document.querySelector(".option2");
     // let option3=document.querySelector(".option3");
 
-    console.log(Box,option1);
+    console.log(out);
 
 
     for(let i=0;i<option1.length;i++){
