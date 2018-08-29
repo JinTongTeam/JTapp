@@ -188,6 +188,7 @@ section{
     line-height: 0.85rem;
 }
 .manjian{
+    display: block;
     width: 1.84rem;
     height: 0.39rem;
     background-image:-webkit-linear-gradient(left,#ff933b,#ffca3b);

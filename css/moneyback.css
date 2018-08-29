@@ -284,6 +284,7 @@ footer{
     overflow: hidden;
 }
 .tijiao{
+    display: block;
     width: 4.55rem;
     height: 0.6rem;
     background-image: -webkit-linear-gradient(left,#37e06f,#32d69a);
