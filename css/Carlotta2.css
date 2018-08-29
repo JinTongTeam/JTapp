@@ -107,30 +107,31 @@
     font-size: 0.27rem;
     color: #ff7370;
 }
-.payment_wallet .option{
+.option{
     width: 0.25rem;
     height: 0.25rem;
-    background: #36a8fe;
+    /*background: #36a8fe;*/
     border-radius: 50%;
     float: right;
     margin-top: 0.41rem;
+    position: relative;
 }
-.payment_wallet .option div{
-    width: 0.07rem;
-    height: 0.07rem;
-    background: #fbfeff;
-    border-radius: 50%;
-    margin: 0 auto;
-    margin-top: 0.09rem;
-}
-.payment_WeChat .option{
-    width: 0.25rem;
-    height: 0.25rem;
-    background: #dddddd;
-    border-radius: 50%;
-    float: right;
-    margin-top: 0.41rem;
-}
+/*.payment_wallet .option div{*/
+/*width: 0.07rem;*/
+/*height: 0.07rem;*/
+/*background: #fbfeff;*/
+/*border-radius: 50%;*/
+/*margin: 0 auto;*/
+/*margin-top: 0.09rem;*/
+/*}*/
+/*.payment_WeChat .option{*/
+/*width: 0.25rem;*/
+/*height: 0.25rem;*/
+/*background: #dddddd;*/
+/*border-radius: 50%;*/
+/*float: right;*/
+/*margin-top: 0.41rem;*/
+/*}*/
 
 .Content_Bottom_Button{
     width: 4.54rem;
@@ -147,6 +148,16 @@
     text-align: center;
     line-height: 0.6rem;
     font-size: 0.19rem;
+}
+.option input{
+    width: 0.25rem;
+    height: 0.25rem;
+    display: block;
+    background: green;
+    color: yellow;
+    position: absolute;
+    left: 0;
+    top: 0;
 }
 
 .shadow{

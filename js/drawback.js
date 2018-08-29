@@ -5,7 +5,9 @@ window.onload=function () {
     let ModalWorry=document.querySelector(".Modal-worry")
     let cross=document.querySelector(".modal .date-top span:nth-child(2)");
     let crosstwo=document.querySelector(".Modal-worry .date-top span:nth-child(2)");
-    // console.log(select, buyworry,cross,crosstwo,modal,ModalWorry);
+    let btnClose1=document.querySelectorAll(".btn-close1");
+    let btnClose2=document.querySelectorAll(".btn-close2");
+    console.log(select, buyworry,cross,crosstwo,modal,ModalWorry,btnClose1);
     select.onclick=function () {
         modal.style.display="block";
     }
@@ -18,5 +20,14 @@ window.onload=function () {
     crosstwo.onclick=function () {
         ModalWorry.style.display="none";
     }
+    // btnClose1.onclick=function () {
+    //     modal.style.display="none";
+    // }
+    // btnClose2.onclick=function () {
+    //     modal.style.display="none";
+    // }
+
+
+
 
 }

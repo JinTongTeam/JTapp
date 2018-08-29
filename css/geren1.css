@@ -25,6 +25,11 @@ main{
     background-size: cover;
     float: left;
 }
+.head .touxiang a{
+    width: 1.17rem;
+    height: 1.19rem;
+    display: block;
+}
 .head .name{
     width: 4.48rem;
     height: .72rem;

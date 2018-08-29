@@ -1,0 +1,352 @@
+@import "base.css";
+html body{
+    width: 100%;
+    height: 100%;
+    background: #fbfeff;
+}
+.all-head{
+    width: 100%;
+    height: .88rem;
+    /*background: red;*/
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+}
+.all-head-left{
+    width: .48rem;
+    height: 100%;
+    /*background: yellow;*/
+    margin-left: .24rem;
+}
+.all-head-left>a{
+    display: block;
+}
+.icon-fanhui{
+    font-size: 0.41rem;
+    color: #36a8fe;
+    text-align: center;
+    margin-top: 0.30rem;
+}
+
+.all-head-center{
+    font-size: .34rem;
+    color: #53bafe;
+    text-align: center;
+    line-height: .88rem;
+}
+.all-head-right{
+    width: .48rem;
+    height: 100%;
+    /*background: yellow;*/
+    margin-right: .24rem;
+}
+
+.line{
+    width: 100%;
+    height: 0.12rem;
+    background: #f0faff;
+    margin-top: 0.88rem;
+}
+
+.Choice{
+    width: 7.06rem;
+    height: 0.93rem;
+    background: #fbfeff;
+    margin: 0 auto;
+    font-size: 0.25rem;
+    line-height: 0.93rem;
+    color: #979899;
+    font-weight: bold;
+    position: relative;
+}
+.address{
+    width: 0.34rem;
+    height: 0.26rem;
+    background: green;
+    position: absolute;
+    right: 0;
+    top: 0.33rem;
+}
+
+.commodity{
+    width: 7.06em;
+    height: 2.34rem;
+    background: #fbfeff;
+    margin: 0 auto;
+    border-bottom: 0.02rem solid #f6f9fa;
+    position: relative;
+}
+.commodity_Right{
+    float: right;
+    width: 5.03rem;
+    height: 2.34rem;
+    /*background: green;*/
+    position: relative;
+    overflow: hidden;
+}
+.commodity_Right h1{
+    font-size: 0.28rem;
+    color: #646666;
+    letter-spacing: 0.02rem;
+    margin-top: 0.18rem;
+}
+.commodity_Right h2{
+    font-size: 0.18rem;
+    color: #36a8fe;
+    padding-left: 0.15rem;
+    margin-top: 0.19rem;
+    position: relative;
+}
+.commodity_Right h3{
+    font-size: 0.19rem;
+    color: #c2c4c5;
+    padding-left: 0.15rem;
+    margin-top: 0.12rem;
+    position: relative;
+}
+.commodity_Right h4{
+    font-size: 0.2rem;
+    color: #fbb548;
+    padding-left: 0.15rem;
+    margin-top: 0.35rem;
+    position: relative;
+}
+.spot{
+    width: 0.05rem;
+    height: 0.05rem;
+    background: #44b5ff;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top: 0.15rem;
+}
+.Number_Box{
+    width: 2.99rem;
+    height: 0.52rem;
+    /*background: yellow;*/
+    position: absolute;
+    bottom: 0.14rem;
+    right: 0;
+    font-size: 0.18rem;
+    font-weight: bold;
+    color: #36a8fe;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.Number{
+    width: 1.18rem;
+    height: 0.52rem;
+    border-radius: 0.26rem;
+    background: #e7f6ff;
+    font-size: 0.28rem;
+    text-align: center;
+    line-height: 0.52rem;
+    color: #3bacfe;
+}
+.Number:nth-child(2){
+    background: #3bacfe;
+    color: #ffffff;
+}
+.img_Box{
+    width: 1.74rem;
+    height: 1.74rem;
+    /*background: yellow;*/
+    position: absolute;
+    left: 0;
+    top: 0.27rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Requirement{
+    width: 7.02rem;
+    height: 2.68rem;
+    /*background: yellow;*/
+    margin: 0.09rem auto 0;
+}
+.Requirement_style1{
+    width: 100%;
+    height: 0.92rem;
+    /*background: green;*/
+    border-bottom: 0.02rem solid #f6f9fa;
+    box-sizing: border-box;
+}
+.Requirement_style2{
+    width: 100%;
+    height: 0.88rem;
+    /*background: pink;*/
+    border-bottom: 0.02rem solid #f6f9fa;
+    box-sizing: border-box;
+}
+.left{
+    width: 14%;
+    height: 0.22rem;
+    display: block;
+    /*background: orange;*/
+    float: left;
+    font-size: 0.22rem;
+    line-height: 0.22rem;
+    color: #8a8c8d;
+    font-weight: bold;
+    padding-left: 0.15rem;
+    position: relative;
+    margin-top: 0.36rem;
+
+}
+.right{
+    width: 30%;
+    height: 0.22rem;
+    display: block;
+    /*background: firebrick;*/
+    float: right;
+    font-size: 0.22rem;
+    line-height: 0.22rem;
+    color: #8a8c8d;
+    font-weight: bold;
+    text-align: right;
+    margin-top: 0.36rem;
+}
+.spot1{
+    width: 0.05rem;
+    height: 0.05rem;
+    background: #44b5ff;
+    position: absolute;
+    left: 0;
+    top: 0.09rem;
+}
+
+.Remarks{
+    width: 7.02rem;
+    height: 0.88rem;
+    /*background: green;*/
+    margin: 0 auto;
+    position: relative;
+}
+.Carema{
+    width: 1.01rem;
+    height: 1.01rem;
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom:-0.85rem;
+}
+.Remarks h4{
+    width: 3.5rem;
+    font-size: 0.22rem;
+    float: left;
+    line-height: 0.98rem;
+    color: #979899;
+    margin-left: -0.3rem;
+}
+textarea{
+    width: 6.68rem;
+    height: 1.27rem;
+    background: #f1faff;
+    display: block;
+    resize: none;
+    margin: 1.11rem auto 0;
+    outline: none;
+    border: none;
+    padding-left: 0.33rem;
+}
+.Amount{
+    width: 7.02rem;
+    height: 1.48rem;
+    /*background: orange;*/
+    margin: 0 auto;
+}
+.Amount_Top{
+    width: 100%;
+    height: 0.73rem;
+    border-bottom: 0.02rem solid #f6f9fa;
+    position: relative;
+}
+.Amount_Bottom{
+    width: 100%;
+    height: 0.71rem;
+    border-bottom: 0.02rem solid #f6f9fa;
+    position: relative;
+}
+.Amount .left{
+    width: 14%;
+    height: 0.22rem;
+    display: block;
+    /*background: orange;*/
+    float: left;
+    font-size: 0.22rem;
+    line-height: 0.22rem;
+    color: #8a8c8d;
+    font-weight: bold;
+    padding-left: 0.15rem;
+    position: relative;
+    margin-top: 0.19rem;
+}
+.Amount .right{
+    width: 30%;
+    height: 0.22rem;
+    display: block;
+    /*background: firebrick;*/
+    float: right;
+    font-size: 0.22rem;
+    line-height: 0.22rem;
+    color: #8a8c8d;
+    font-weight: bold;
+    text-align: right;
+    margin-top: 0.19rem;
+}
+.spot2{
+    width: 0.05rem;
+    height: 0.05rem;
+    background: #44b5ff;
+    position: absolute;
+    left: 0;
+    top: 0.09rem;
+}
+
+.Total{
+    width: 100%;
+    height: 1.07rem;
+    background: #f1faff;
+    margin-top: 0.03rem;
+    padding-left: 0.37rem;
+    box-sizing: border-box;
+    position: relative;
+}
+.Total h1{
+    font-size: 0.23rem;
+    color: #84cbfe;
+    line-height: 1.07rem;
+}
+.Total h1 span{
+    font-size: 0.25rem;
+    color: #36a8fe;
+}
+.spot3{
+    width: 0.05rem;
+    height: 0.05rem;
+    background: #44b5ff;
+    position: absolute;
+    left: 0.21rem;
+    top: 0.52rem;
+}
+.Total_btn{
+    width: 3.5rem;
+    height: 0.6rem;
+    background: #3bacfe;
+    border-radius: 0.3rem;
+    font-size: 0.19rem;
+    text-align: center;
+    line-height: 0.6rem;
+    color: #ffffff;
+    font-weight: bold;
+    outline: none;
+    border: none;
+    position: absolute;
+    right: 0.37rem;
+    top: 0.26rem;
+}
