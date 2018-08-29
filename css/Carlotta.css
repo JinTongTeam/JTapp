@@ -82,3 +82,56 @@
     line-height: 0.6rem;
     box-shadow: 0 0 0.2rem 0.1rem rgba(52,218,135,0.2);
 }
+.dingwei{
+    position: relative;
+}
+.tiaozhuan{
+    width: 0.18rem;
+    height: 0.24rem;
+    /*background: yellow;*/
+    position: absolute;
+    right: 0.23rem;
+    top: 0.3rem;
+    font-size: 0.24rem;
+    text-align: center;
+    line-height: 0.24rem;
+    color: #36a8fe;
+}
+.all-head{
+    width: 100%;
+    height: .88rem;
+    /*background: red;*/
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+}
+.all-head-left{
+    width: .48rem;
+    height: 100%;
+    /*background: yellow;*/
+    margin-left: .24rem;
+}
+.all-head-left>a{
+    display: block;
+}
+.icon-fanhui{
+    font-size: 0.41rem;
+    color: #36a8fe;
+    text-align: center;
+    margin-top: 0.30rem;
+}
+
+.all-head-center{
+    font-size: .34rem;
+    color: #53bafe;
+    text-align: center;
+    line-height: .88rem;
+}
+.all-head-right{
+    width: .48rem;
+    height: 100%;
+    /*background: yellow;*/
+    margin-right: .24rem;
+}

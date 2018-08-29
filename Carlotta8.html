@@ -16,7 +16,7 @@
     <div class="all-head-left">
         <a href="" class="iconfont icon-fanhui"></a>
     </div>
-    <h1 class="all-head-center">帮助</h1>
+    <h1 class="all-head-center">添加地址</h1>
     <div class="all-head-right"></div>
 </header>
 
@@ -24,7 +24,7 @@
 
 <div class="service_Box">
     <div class="service">
-        <h1>如何预约上门服务</h1>
+        <h1 class="no1">如何预约上门服务</h1>
         <div class="service_right">＞</div>
         <div class="Instructions"></div>
     </div>
@@ -34,7 +34,14 @@
         <div class="Instructions"></div>
     </div>
 </div>
-
+<script>
+    let no1=document.querySelector(".no1");
+    console.log(no1);
+    no1.onclick=function () {
+        open("Carlotta9.html");
+        close();
+    }
+</script>
 
 </body>
 </html>

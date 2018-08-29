@@ -7,15 +7,18 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Title</title>
     <script src="js/rem.js"></script>
-    <link rel="stylesheet" href="css/all.css">
+    <!--<link rel="stylesheet" href="css/all.css">-->
     <link rel="stylesheet" href="css/Carlotta1.css">
+    <link rel="stylesheet" href="https://at.alicdn.com/t/font_808580_dviqvmzaz7f.css">
 </head>
 <body>
-    <header class="all-head">
-        <div class="all-head-left"></div>
-        <h1 class="all-head-center">支付</h1>
-        <div class="all-head-right" style="background: none"></div>
-    </header>
+<header class="all-head">
+    <div class="all-head-left">
+        <a href="" class="iconfont icon-fanhui"></a>
+    </div>
+    <h1 class="all-head-center">帮助</h1>
+    <div class="all-head-right"></div>
+</header>
 
     <div class="Content_line"></div>
     <div class="Content_Top">
@@ -27,7 +30,7 @@
     </div>
     <div class="Content_Center">
         <div class="payment_wallet">
-            <div class="icon_img"></div>
+            <div class="icon_img"><img src="img/qianbao.gif" alt=""></div>
             <h2>我的钱包</h2>
 
             <div class="option">
@@ -36,7 +39,7 @@
             <h3>余额<span>602</span>元</h3>
         </div>
         <div class="payment_WeChat">
-            <div class="icon_img"></div>
+            <div class="icon_img"><img src="img/weixin.gif" alt=""></div>
             <h2>微信支付</h2>
 
             <div class="option">
@@ -46,4 +49,17 @@
     </div>
     <button class="Content_Bottom_Button">确认支付</button>
 </body>
+<script>
+    let iconFanhui=document.querySelector(".icon-fanhui");
+    let Button=document.querySelector(".Content_Bottom_Button")
+    console.log(iconFanhui,Button);
+    iconFanhui.onclick=function () {
+        open("orderform.html");
+        close();
+    }
+    Button.onclick=function () {
+        open("Carlotta2.html");
+        close();
+    }
+</script>
 </html>

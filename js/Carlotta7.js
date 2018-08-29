@@ -3,7 +3,8 @@ window.onload=function () {
     let teshu=document.querySelectorAll(".teshu");
     let out=document.querySelector(".out");
     let Eject=document.querySelector(".Eject");
-    console.log(teshu,out,Eject);
+    let Close=document.querySelector(".Close");
+    console.log(Close);
 
 
         for(let i=0;i<teshu.length;i++){
@@ -15,7 +16,12 @@ window.onload=function () {
         }
 
     out.onclick=function () {
-        Eject.style.display="none";
+        open("Carlotta6.html");
+        close();
+    }
+    Close.onclick=function () {
+        open("Carlotta6.html");
+        close();
     }
 
 

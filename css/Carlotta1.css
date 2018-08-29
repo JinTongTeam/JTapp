@@ -1,4 +1,54 @@
 @import "base.css";
+html body{
+    width: 100%;
+    height: 100%;
+    background: #fbfeff;
+}
+.all-head{
+    width: 100%;
+    height: .88rem;
+    /*background: red;*/
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+}
+.all-head-left{
+    width: .48rem;
+    height: 100%;
+    /*background: yellow;*/
+    margin-left: .24rem;
+}
+.all-head-left>a{
+    display: block;
+}
+.icon-fanhui{
+    font-size: 0.41rem;
+    color: #36a8fe;
+    text-align: center;
+    margin-top: 0.30rem;
+}
+
+.all-head-center{
+    font-size: .34rem;
+    color: #53bafe;
+    text-align: center;
+    line-height: .88rem;
+}
+.all-head-right{
+    width: .48rem;
+    height: 100%;
+    /*background: yellow;*/
+    margin-right: .24rem;
+}
+
+.line{
+    width: 100%;
+    height: 0.12rem;
+    background: #f0faff;
+    margin-top: 0.88rem;
+}
 .Content_line{
     width: 100%;
     height: 0.09rem;
@@ -158,4 +208,8 @@
     position: absolute;
     left: 0;
     top: 0;
+}
+.icon_img img{
+    width: 1.06rem;
+    height: 1.06rem;
 }

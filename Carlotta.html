@@ -7,15 +7,17 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Title</title>
     <script src="js/rem.js"></script>
-    <link rel="stylesheet" href="css/all.css">
+    <!--<link rel="stylesheet" href="css/all.css">-->
     <link rel="stylesheet" href="css/Carlotta.css">
     <link rel="stylesheet" href="https://at.alicdn.com/t/font_808580_dviqvmzaz7f.css">
 </head>
 <body>
 <header class="all-head">
-    <div class="all-head-left"></div>
-    <h1 class="all-head-center">添加地址</h1>
-    <div class="all-head-right" style="background: none"></div>
+    <div class="all-head-left">
+        <a href="" class="iconfont icon-fanhui"></a>
+    </div>
+    <h1 class="all-head-center">帮助</h1>
+    <div class="all-head-right"></div>
 </header>
 
 <div class="Content_line"></div>
@@ -33,11 +35,12 @@
                 <input type="text" placeholder="电话">
             </div>
         </div>
-        <div class="Contact_box_contact">
+        <div class="Contact_box_contact dingwei">
             <div class="top"><div class="spot"></div>服务地址</div>
             <div class="bottom">
                 <input type="text">
             </div>
+            <div class="tiaozhuan">＞</div>
         </div>
         <div class="Contact_box_contact">
             <div class="top"><div class="spot"></div>门牌号</div>
@@ -49,4 +52,21 @@
     <button class="Button">保存</button>
 </div>
 </body>
+<script>
+let tiaozhuan=document.querySelector(".tiaozhuan");
+let iconFanhui=document.querySelector(".icon-fanhui");
+let Button=document.querySelector(".Button")
+console.log(tiaozhuan,iconFanhui,Button);
+tiaozhuan.onclick=function () {
+    open("L-address1.html");
+}
+iconFanhui.onclick=function () {
+    open("addressEmpty.html");
+    close();
+}
+Button.onclick=function (ev) {
+    open("commonaddress.html");
+    close();
+}
+</script>
 </html>
