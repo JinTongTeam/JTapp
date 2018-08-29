@@ -1,0 +1,83 @@
+main{
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+}
+main .bigul{
+    width: 100%;
+    height: 6.23rem;
+    margin-top: 1.25rem;
+}
+main .bigul li{
+    width: 100%;
+    height: 2.71rem;
+    margin-top: .91rem;
+}
+main ul li:nth-child(1){
+    margin-top: 0;
+}
+.tittle{
+    width: 100%;
+    height: .56rem;
+    padding-bottom: .2rem;
+    box-sizing: border-box;
+    border-bottom: .02rem solid #eef1f2;
+
+}
+.tittle .dian{
+    width: .1rem;
+    height: 0.05rem;
+    background: #44b5ff;
+    border-radius: 0.025rem;
+    box-shadow: 0 .06rem .1rem .02rem rgba(199,233,255,1);
+    margin: .14rem .11rem 0 .12rem;
+    overflow: hidden;
+    float: left;
+}
+.tittle .text1{
+    font-size: .30rem;
+    color: #4f5b64;
+    line-height: .33rem;
+    float: left;
+    font-weight: bold;
+}
+.tittle .text2{
+    float: right;
+    color: #979899;
+    font-size: .26rem;
+}
+.tittle .text1 span{
+    color: #41b2fc;
+}
+.smallul{
+    width: 100%;
+    height: 1.85rem;
+    margin-top: .4rem;
+}
+.smallul .logo{
+    width: 1.65rem;
+    height: 1.85rem;
+    float: left;
+    margin-right: .39rem;
+}
+.smallul .logo .pic{
+    width: 1.13rem;
+    height: 1.18rem;
+    margin-left: .2rem;
+    border-radius: 50%;
+    background: url("../img/ren.png") no-repeat center;
+}
+.smallul .logo .pic1{
+    background: url("../img/zhekou.png") no-repeat center;
+}
+.smallul .logo .pic2{
+    background: url("../img/kuaisu.png") no-repeat center;
+}
+.smallul .logo .word {
+    width: 100%;
+    height: .22rem;
+    font-size: .22rem;
+    color: #8e9397;
+    text-align: center;
+    line-height: .22rem;
+    margin-top: .3rem;
+}
