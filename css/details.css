@@ -60,7 +60,10 @@ section{
     /*background: #53bafe;*/
     border-bottom: 0.01rem solid #f0f5f7;
     margin-top: 1.73rem;
-    margin-left: 0.24rem;
+    /*margin-left: 0.24rem;*/
+    padding-left: 0.24rem;
+    padding-right: 0.24rem;
+    box-sizing: border-box;
 }
 .mingcheng{
     font-size: 0.28rem;
@@ -272,6 +275,7 @@ span{
     font-size: 0.21rem;
     color:#44b5ff;
     line-height: 0.21rem;
+    padding-right: 0.24rem;
 }
 .concent{
     width: 100%;
@@ -282,9 +286,12 @@ span{
     width: 7.01rem;
     height: 2.41rem;
     /*background: #ffca3b;*/
-    margin-left: 0.24rem;
+    /*margin-left: 0.24rem;*/
     border-bottom: 0.01rem solid #f0f5f7;
     overflow: hidden;
+    padding-left: 0.24rem;
+    padding-right: 0.24rem;
+    box-sizing: border-box;
 }
 .touxiang{
     width: 0.85rem;
@@ -330,6 +337,7 @@ span{
     color: #9ed5ff;
     float: right;
     line-height: 0.19rem;
+    padding-right: 0.24rem;
 }
 .good{
     font-size: 0.27rem;
@@ -348,8 +356,11 @@ span{
     height: 3.75rem;
     /*background:green;*/
     border-bottom: 0.01rem solid #f0f5f7;
-    margin-left: 0.24rem;
+    /*margin-left: 0.24rem;*/
     overflow: hidden;
+    padding-left: 0.24rem;
+    padding-right: 0.24rem;
+    box-sizing: border-box;
 }
 .shoes{
     width: 1.78rem;
@@ -386,6 +397,9 @@ span{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    padding-right: 0.24rem;
+    padding-left: 0.24rem;
+    box-sizing: border-box;
 }
 .tap>a{
     display: block;
