@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="https://at.alicdn.com/t/font_808580_rwze5aukv4.css">
 </head>
 <body>
+<div class="bg">
 <!--头部-->
 <header class="all-head">
     <a href=""><div class="all-head-left"><i class="iconfont icon-fanhui"></i></div></a>
@@ -39,10 +40,11 @@
             <div class="flag"></div>
             <h1>热门<span>推荐</span></h1>
         </div>
-        <a href=""><div class="more"><h2>查看更多 <i class="iconfont icon-arr-right"></i></h2></div></a>
+        <a href="Carlotta4.html"><div class="more"><h2>查看更多 <i class="iconfont icon-arr-right"></i></h2></div></a>
     </div>
     <ul class="main-list">
-        <li>
+        <li style="position: relative">
+            <a href="details2.html" style="width:100%;height:100%;position: absolute;top: 0;left: 0"></a>
             <div class="zhekou">5.0</div>
             <img src="img/4@3x.png" alt="">
             <div class="name-price">
@@ -66,6 +68,7 @@
             <div class="label">价格合理</div>
         </li>
         <li>
+            <a href="details2.html" style="width:100%;height:100%;position: absolute;top: 0;left: 0"></a>
             <div class="zhekou">5.0</div>
             <img src="img/4@3x.png" alt="">
             <div class="name-price">
@@ -89,6 +92,7 @@
             <div class="label">价格合理</div>
         </li>
         <li>
+            <a href="details2.html" style="width:100%;height:100%;position: absolute;top: 0;left: 0"></a>
             <div class="zhekou">5.0</div>
             <img src="img/4@3x.png" alt="">
             <div class="name-price">
@@ -112,6 +116,7 @@
             <div class="label">价格合理</div>
         </li>
         <li>
+            <a href="details2.html" style="width:100%;height:100%;position: absolute;top: 0;left: 0"></a>
             <div class="zhekou">5.0</div>
             <img src="img/4@3x.png" alt="">
             <div class="name-price">
@@ -136,14 +141,43 @@
         </li>
     </ul>
 </main>
+<!--底部开始-->
 <footer class="all-foot">
     <ul class="all-foot-box">
-        <a href=""><li><i class="iconfont icon-autozonglan"></i><span>首页</span></li></a>
-        <a href=""><li><i class="iconfont icon-shangcheng"></i><span>商城</span></li></a>
-        <a href=""><li><i class="iconfont icon-tianjiashipinhechupintujiahao"></i><span>入驻</span></li></a>
-        <a href=""><li><i class="iconfont icon-malingshuxiangmuicon_huabanfuben-"></i><span>订单</span></li></a>
-        <a href=""><li><i class="iconfont icon-wodexuanzhong"></i><span>我的</span></li></a>
+        <a href="index.html"><li><i class="iconfont icon-autozonglan"></i><span>首页</span></li></a>
+        <a href="L-dianpu.html"><li><i class="iconfont icon-shangcheng"></i><span>商城</span></li></a>
+        <a href="javascript:" class="all-ruzhu"><li><i class="iconfont icon-tianjiashipinhechupintujiahao"></i><span>入驻</span></li></a>
+        <a href="forservice.html"><li><i class="iconfont icon-malingshuxiangmuicon_huabanfuben-"></i><span>订单</span></li></a>
+        <a href="geren1.html"><li><i class="iconfont icon-wodexuanzhong"></i><span>我的</span></li></a>
     </ul>
 </footer>
+<div class="all-zz">
+    <ul>
+        <a href=""><li>
+            <div><i class="iconfont icon-unie623"></i></div>
+            <h1>商家入驻</h1>
+        </li></a>
+        <a href=""><li>
+            <div class="blue"><i class="iconfont icon-loufang"></i></div>
+            <h1>水司入驻</h1>
+        </li></a>
+    </ul>
+    <div class="close">X</div>
+</div>
+<!--底部结束-->
+</div>
 </body>
 </html>
+<script>
+    let zzPage=document.querySelector(".all-zz");
+    let rzBtn=document.querySelector(".all-ruzhu");
+    let close=document.querySelector(".close");
+    console.log(zzPage, rzBtn, close);
+
+    rzBtn.onclick=function () {
+        zzPage.style.zIndex="998";
+    };
+    close.onclick=function () {
+        zzPage.style.zIndex="-998";
+    }
+</script>

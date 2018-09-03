@@ -1,0 +1,162 @@
+@import url(base.css);
+main{
+    width: 100%;
+    padding: .88rem .24rem 0;
+    box-sizing: border-box;
+}
+section{
+    padding: .32rem 0 .25rem;
+    box-sizing: border-box;
+    border-bottom: .02rem solid #eef1f2;
+}
+.section-title{
+    width: 100%;
+    height: .34rem;
+}
+.flag{
+    width: .24rem;
+    height: .24rem;
+    background: #e7f6ff;
+    border-radius: 50%;
+    margin-right: .3rem;
+    float: left;
+    margin-top: .05rem;
+}
+.section-title>a{
+    float: left;
+}
+h1{
+    font-size: .24rem;
+    color: #3bacfe;
+}
+h1>.icon-arr-right{
+    font-size: .24rem;
+    color: #3bacfe;
+}
+.section-title>.icon-lajitong{
+    font-size: .34rem;
+    color: #3bacfe;
+    display: block;
+    float: right;
+}
+.section-center{
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.section-center-left{
+    padding-top: .2rem;
+    display: flex;
+    align-items: center;
+}
+.section-center-left>img{
+    height: 1.76rem;
+    margin-right: .25rem;
+}
+h2{
+    font-size: .28rem;
+    color: #646666;
+}
+h3{
+    font-size: .2rem;
+    color: #a4a8ac;
+}
+h4{
+    font-size: .22rem;
+    color: #36a8fe;
+}
+.how{
+    width: 1.27rem;
+    height: .34rem;
+    float: right;
+    display: flex;
+    justify-content: space-between;
+}
+.circle{
+    width: .34rem;
+    height: .34rem;
+    background: #36a8fe;
+    border-radius: 50%;
+    font-size: .12rem;
+    color: #fff;
+    line-height: .34rem;
+    text-align: center;
+}
+.circle1{
+    background: #e7f6ff;
+}
+.section-bottom{
+    width: 100%;
+    height: .45rem;
+    margin-top: .14rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+}
+.section-bottom>a{
+    display: block;
+    width: 1.42rem;
+    height: 100%;
+    border-radius: .22rem;
+    background: #3bacfe;
+    font-size: .18rem;
+    color: #fff;
+    text-align: center;
+    line-height: .45rem;
+    position: absolute;
+    right: 0;
+}
+footer{
+    width: 100%;
+    height: 1.82rem;
+    display: flex;
+    align-content: space-between;
+    flex-wrap: wrap;
+    position: absolute;
+    bottom: 0;
+}
+.foot-top{
+    display: flex;
+    justify-content: flex-start;
+    padding: 0 .24rem;
+    box-sizing: border-box;
+}
+.foot-bottom{
+    width: 100%;
+    height: 1.08rem;
+    background: #f1faff;
+    padding: 0 .24rem;
+    box-sizing: border-box;
+}
+.all-green-logo{
+    display: inline-block;
+    width: .08rem;
+    height: .08rem;
+    border-radius: 50%;
+    background: #37ce9a;
+}
+.foot-bottom{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding-bottom: .23rem;
+    box-sizing: border-box;
+}
+.foot-bottom>div>div{
+    height: .26rem;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.jiesuan{
+    width: 3.8rem;
+    height: .6rem;
+    background-image: -webkit-linear-gradient(left,#37e06f,#32d69a);
+    font-size: .22rem;
+    color: #fff;
+    border-radius: .3rem;
+    text-align: center;
+    line-height: .6rem;
+}
